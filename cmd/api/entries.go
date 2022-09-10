@@ -23,5 +23,5 @@ func (app *application) showEntryHandler (w http.ResponseWriter, r *http.Request
 		return
 	}
 	//display the school id
-	fmt.Fprintln(w, "Show the details for the entry %d \n", id)
+	fmt.Fprintln(w, "Show the details for the entry %d\n", id)
 }
